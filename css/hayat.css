@@ -130,7 +130,7 @@
   }
   .header .main-nav > li > a:hover {
     color: var(--main-color);
-    background-color: #7671b8;
+    background-color: #b87171;
   }
   
   /* End Header */
@@ -166,7 +166,7 @@
   }
   .articles .box:hover {
     transform: translateY(-10px);
-    box-shadow: 0 2px 15px rgb(0 0 0 / 20%);
+    box-shadow: 0 2px 15px rgb(249, 18, 18);
   }
   .articles .box img {
     width: 100%;
@@ -193,6 +193,11 @@
   .articles .box .info a {
     color: var(--main-color);
     font-weight: bold;
+    color: red;
+    text-decoration: none
+  }
+  .articles .box .info a:hover{
+    transform: translateX(10px);
   }
  
   /* End Articles */

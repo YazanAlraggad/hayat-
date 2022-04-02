@@ -53,7 +53,7 @@
   }
   .articles .box:hover {
     transform: translateY(-10px);
-    box-shadow: 0 2px 15px rgb(0 0 0 / 20%);
+    box-shadow: 0 2px 15px rgb(251, 11, 11);
   }
   .articles .box img {
     width: 100%;
@@ -80,6 +80,18 @@
   .articles .box .info a {
     color: var(--main-color);
     font-weight: bold;
+    color: red;
+    text-decoration: none
+  
+  }
+  .articles .box .info a:hover{
+    transform: translateX(10px);
+  }
+  .articles .box .info i {
+    color: var(--main-color);
+  }
+  .articles .box:hover .info i {
+    animation: moving-arrow 0.6s linear infinite;
   }
 
   /* End Articles */
