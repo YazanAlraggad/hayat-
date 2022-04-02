@@ -24,6 +24,7 @@ padding: 7px;
     transform: translateY(-50px);
     box-shadow: 0 2px 15px rgb(246, 4, 4);
   }
+  
   /* Small */
 @media (min-width: 768px) {
     .container {
